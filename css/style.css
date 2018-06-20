@@ -8198,7 +8198,7 @@ div.cs-select span {
   float: left;
   margin-top: 7px;
 }
-#availability .a-col .input-field input[type="text"] {
+#availability .a-col .input-field .date-book {
   float: right;
   margin-right: 0;
   width: 60%;
@@ -8213,7 +8213,25 @@ div.cs-select span {
   border-radius: 0px;
   box-shadow: none;
 }
-#availability .a-col .input-field input[type="text"]:focus, #availability .a-col .input-field input[type="text"]:active {
+
+#availability .a-col .input-field .txt-input {
+  float: right;
+  margin-right: 0;
+  width: 60%;
+  height: 42px;
+  font-size: 15px;
+  line-height: 36px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  color: #fff;
+  background:  98% 90% no-repeat;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+
+#availability .a-col .input-field .date-book:focus, #availability .a-col .input-field .date-book:active {
   box-shadow: none;
   outline: none;
 }
